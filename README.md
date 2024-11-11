@@ -58,7 +58,7 @@ Implement error handling for API requests (e.g., handle timeouts, client errors 
 ### Top contributors:
 
 <a href="https://github.com/justcallmezaaii/api-call/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=justcallmezaaii/api-call alt="contrib.rocks image" />
+  <img src="https://contrib.rocks/image?repo=justcallmezaaii/api-call" alt="contrib.rocks image" />
 </a>
   
   
