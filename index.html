@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spacing Out</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="/assets/comet.ico" >
+  <link rel="shortcut icon" href="assets/comet.ico" >
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
   
 </head>
@@ -39,14 +39,14 @@
   </div>
     
     <div class="model-container">
-      <model-viewer src="/assets/ast3d/scene.gltf" auto-rotate rotation-per-second="40deg" autoplay alt="A 3D astronaut" class="floating-astronaut"></model-viewer>
-      <model-viewer src="/assets/baby alien/scene.gltf" auto-rotate autoplay rotation-per-second="-10deg" alt="A baby alien" class="floating-alien"></model-viewer>
+      <model-viewer src="assets/ast3d/scene.gltf" auto-rotate rotation-per-second="40deg" autoplay alt="A 3D astronaut" class="floating-astronaut"></model-viewer>
+      <model-viewer src="assets/baby alien/scene.gltf" auto-rotate autoplay rotation-per-second="-10deg" alt="A baby alien" class="floating-alien"></model-viewer>
     </div>
 
   <div id="dateModal" class="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal('dateModal')">&times;</span>
-      <h3 style="color:#FFF7F1;text-align:center; font-family: cairo play;">Select a Date<img src="/assets/const2.png" width="30px" height="30px"></h3>
+      <h3 style="color:#FFF7F1;text-align:center; font-family: cairo play;">Select a Date<img src="assets/const2.png" width="30px" height="30px"></h3>
       <input type="date" id="date-input" max="${new Date().toISOString().split('T')[0]}">
       <button onclick="fetchApodByDate()" style="font-family:cairo play;">Fetch Image</button>
     </div>
